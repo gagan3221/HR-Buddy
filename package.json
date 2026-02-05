@@ -1,0 +1,12 @@
+{
+  "name": "hrbuddy",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "gagan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
