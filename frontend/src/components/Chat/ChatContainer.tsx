@@ -41,7 +41,8 @@ export const ChatContainer = () => {
 
         try {
             const history = messages.map(m => ({ role: m.role, content: m.content }));
-            const response = await axios.post('http://localhost:4000/chat', {
+            const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000/chat';
+            const response = await axios.post(apiUrl, {
                 message: text,
                 history: history
             });

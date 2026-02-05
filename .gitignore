@@ -16,5 +16,6 @@ dist
 .npm
 *.log
 README.md
+DEPLOYMENT_GUIDE.md
 
 
