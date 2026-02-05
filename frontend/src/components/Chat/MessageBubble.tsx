@@ -34,7 +34,7 @@ export const MessageBubble: React.FC<MessageBubbleProps> = ({ message, onActionC
         {isBot && message.action && (
             <ActionCard 
                 action={message.action} 
-                onConfirm={() => onActionConfirm(message.action)} 
+                onConfirm={(data) => onActionConfirm(data)} 
             />
         )}
       </div>
